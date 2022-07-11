@@ -1,6 +1,10 @@
-src
-    DS5100_package/
-        egg.py
-        __init__.py
+from setuptools import setup
 
-setup.py 
+setup(name='Demo',
+      version='0.1',
+      description='A pointless demonstration package',
+      url='https://github.com/Humairabh/DS5100_package',
+      author='Humaira & Rhea',
+      author_email='hbh4bv@virginia.com',
+      license='MIT',
+      packages=['demo'])
